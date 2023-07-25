@@ -27,14 +27,13 @@ body {
 }
 
 .photo {
-  position: absolute;
   border-radius: 50%;
   border: 10px solid aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-  top: 27%;
+  margin-top: -130px;
+  z-index: 1;
 }
 
 main {
